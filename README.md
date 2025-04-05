@@ -5,7 +5,7 @@
 <a href="#">
     <img src="./assets/stackshare.svg" alt="Logo" width="80" height="80">
   </a>
-  <h3 align="center">Common data structure</h3>
+  <h3 align="center">Common data structures</h3>
 
   <p align="center">
     Description of common data structures
@@ -18,10 +18,6 @@
 </div>
 
 
-
-
-# Common data structure
-
 ## Array
 
 **Description:** An array is a contiguous collection of elements of the same type indexed by integers. <br/>
@@ -31,3 +27,15 @@
  - Insert / Delete at end O(1)
  - Insert at specific index O(n) <br/>
 **Space complexity:** O(n)
+
+## Linked list 
+
+**Description:** A linked list is a A sequence of nodes, each containing data and a pointer to the next (and possibly previous) node. <br/>
+
+**Common operations:** 
+ - Access by index O(n)
+ - Insert / Delete at head O(1)
+ - Insert at middle O(n) <br/>
+**Space complexity:** O(n)
+
+
