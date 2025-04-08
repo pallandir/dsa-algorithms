@@ -31,11 +31,21 @@
 ## Linked list 
 
 **Description:** A linked list is a A sequence of nodes, each containing data and a pointer to the next (and possibly previous) node. <br/>
-
+**Use case:** Efficient insertions/deletions at the beginning or middle. No need for resizing like arrays.<br/>
 **Common operations:** 
  - Access by index O(n)
  - Insert / Delete at head O(1)
  - Insert at middle O(n) <br/>
+**Space complexity:** O(n)
+
+## Stack 
+
+**Description:** A linear data structure that follows LIFO (Last In First Out). <br/>
+**Use case:** Useful for undo operations, syntax parsing, backtracking, and expression evaluation.<br/>
+**Common operations:** 
+ - Push O(1)  
+ - Pop O(1)
+ - Peak O(1)
 **Space complexity:** O(n)
 
 
