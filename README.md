@@ -45,7 +45,17 @@
 **Common operations:** 
  - Push O(1)  
  - Pop O(1)
- - Peak O(1)
+ - Peak O(1) <br/>
 **Space complexity:** O(n)
 
+
+## Queue 
+
+**Description:** A linear structure that follows FIFO (First In First Out).<br/>
+**Use case:** Models real-world queues; used in scheduling, BFS, and resource sharing.<br/>
+**Common operations:** 
+ - Enqueue O(1)  
+ - Dequeue O(1)
+ - Peak O(1) <br/>
+**Space complexity:** O(n)
 
